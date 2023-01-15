@@ -9,7 +9,7 @@ words that are closer in the vector space are expected to be similar in the mean
 word embedding is a technique where you convert a word into a vector
 
 Types of word embedding --> 1. Frequency based (BoW, tfidf, glove)
-				    2. Prediction based (Word2vec)
+			    2. Prediction based (Word2vec)
 
 Question. What is word2vec?
 
@@ -17,5 +17,5 @@ Answer. It is a word embedding technique whose work is to convert the word into 
    you can not directly apply algo to the word, first you have to convert it into number than apply the algo.
 
 	Advantages of using Word2vec --> 1. semantic meaning {Happy, Joy}
-						   2. Low dimension vectors are formed. (100 to 300)
-						   3. Dense Vector (less non-zero vector, which solves the problem of overfitting)
+				         2. Low dimension vectors are formed. (100 to 300)
+					 3. Dense Vector (less non-zero vector, which solves the problem of overfitting)
